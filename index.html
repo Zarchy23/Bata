@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bata Zimbabwe — Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand"><a href="index.html"><img src="logo shoe.jpg" alt="Bata Zimbabwe"></a></div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+          <li><a href="stores.html">Stores</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a id="open-cart" class="icon-btn" href="javascript:void(0)">Cart <span class="cart-count">0</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Step into Style & Comfort</h1>
+        <p class="small">Discover Zimbabwe's favorite footwear for men, women and children.</p>
+        <div style="margin-top:12px">
+          <a href="products.html" class="btn">Shop Now</a>
+        </div>
+        <div class="searchbar">
+          <input id="site-search" placeholder="Search products or categories">
+          <a href="products.html" class="btn-ghost">Browse All</a>
+        </div>
+      </div>
+      <div>
+        <img src="classic.jpg" alt="hero" style="width:100%;border-radius:12px;box-shadow:var(--shadow)">
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured</h2>
+      <div id="products-grid" class="products-grid"></div>
+    </section>
+
+    <section class="grid-2">
+      <div class="info">
+        <h3>Why choose Bata?</h3>
+        <p class="small">Trusted quality, many stores nationwide, and great value.</p>
+      </div>
+      <div class="info">
+        <h3>Customer support</h3>
+        <p class="small">Call +263 123 456 789 or email info@bata.co.zw</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="cart-overlay" style="display:none;align-items:flex-end">
+    <div id="cart-drawer"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; 2025 Bata Zimbabwe — All rights reserved.
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
